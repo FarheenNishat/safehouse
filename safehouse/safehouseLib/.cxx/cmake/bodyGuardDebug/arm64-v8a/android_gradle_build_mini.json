@@ -1,0 +1,82 @@
+{
+  "buildFiles": [
+    "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "nopie_openvpn.arm64-v8a-Debug-arm64-v8a": {
+      "artifactName": "nopie_openvpn.arm64-v8a",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target nopie_openvpn.arm64-v8a",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a/nopie_openvpn.arm64-v8a"
+    },
+    "ovpn3-Debug-arm64-v8a": {
+      "artifactName": "ovpn3",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target ovpn3",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/build/intermediates/cmake/bodyGuardDebug/obj/arm64-v8a/libovpn3.so"
+    },
+    "libovpnexec.so-Debug-arm64-v8a": {
+      "artifactName": "libovpnexec.so",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target libovpnexec.so",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a/libovpnexec.so"
+    },
+    "lzo-Debug-arm64-v8a": {
+      "artifactName": "lzo",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target lzo",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a/liblzo.a"
+    },
+    "opvpnutil-Debug-arm64-v8a": {
+      "artifactName": "opvpnutil",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target opvpnutil",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/build/intermediates/cmake/bodyGuardDebug/obj/arm64-v8a/libopvpnutil.so"
+    },
+    "crypto-Debug-arm64-v8a": {
+      "artifactName": "crypto",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target crypto",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a/libcrypto.a"
+    },
+    "ssl-Debug-arm64-v8a": {
+      "artifactName": "ssl",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target ssl",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a/libssl.a"
+    },
+    "lz4-Debug-arm64-v8a": {
+      "artifactName": "lz4",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target lz4",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a/liblz4.a"
+    },
+    "pie_openvpn.arm64-v8a-Debug-arm64-v8a": {
+      "artifactName": "pie_openvpn.arm64-v8a",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target pie_openvpn.arm64-v8a",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a/pie_openvpn.arm64-v8a"
+    },
+    "jbcrypto-Debug-arm64-v8a": {
+      "artifactName": "jbcrypto",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target jbcrypto",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/build/intermediates/cmake/bodyGuardDebug/obj/arm64-v8a/libjbcrypto.so"
+    },
+    "openvpn-Debug-arm64-v8a": {
+      "artifactName": "openvpn",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target openvpn",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/build/intermediates/cmake/bodyGuardDebug/obj/arm64-v8a/libopenvpn.so"
+    },
+    "osslspeedtest-Debug-arm64-v8a": {
+      "artifactName": "osslspeedtest",
+      "buildCommand": "/Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/tft/Desktop/Safehouse\\ Library/android/safehouse/main/.cxx/cmake/bodyGuardDebug/arm64-v8a --target osslspeedtest",
+      "abi": "arm64-v8a",
+      "output": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/build/intermediates/cmake/bodyGuardDebug/obj/arm64-v8a/libosslspeedtest.so"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/makeassetdir.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/pie_openvpn.x86_64.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/jbcrypto.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/libovpnexec.so.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/openvpn.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/edit_cache.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/crypto.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/osslspeedtest.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/opvpnutil.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/ovpn3.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/nopie_openvpn.x86_64.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/lz4.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/ssl.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/uiRelease/x86_64/CMakeFiles/lzo.dir

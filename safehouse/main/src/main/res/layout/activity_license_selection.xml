@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:background="@drawable/app_bg"
+    tools:context="com.safehouse.almasecure.LicenseSelectionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonLogout"
+            android:layout_width="wrap_content"
+            android:foregroundGravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="#00ffffff"
+            android:tint="@color/buttonNormal"
+            android:layout_centerVertical="true"
+            android:paddingEnd="15dp"
+            android:paddingRight="15dp"
+            android:visibility="visible"
+            android:src="@drawable/ic_logout_black" />
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:fontFamily="titillium_regular"
+            android:layout_centerInParent="true"
+            android:text="License"
+            android:textAlignment="center"
+            android:textColor="@color/buttonNormal"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:paddingBottom="80dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvChoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose"
+            android:fontFamily="titillium_regular"
+            android:textColor="@color/buttonNormal"
+            android:textSize="22dp"/>
+
+        <TextView
+            android:id="@+id/tvLicenseType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="LICENSE TYPE"
+            android:fontFamily="titillium_bold"
+            android:textColor="@color/buttonNormal"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tvSelectTypeLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Select the type of license to"
+            android:fontFamily="titillium_regular"
+            android:textColor="#8388b0"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/tvActivateDeviceLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="titillium_regular"
+            android:text="activate on this device"
+            android:textColor="#8388b0"
+            android:textSize="17dp"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="4"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/personal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/license_unselected"
+        app:cardCornerRadius="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/personal_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:textSize="18dp"
+                    android:textColor="@color/buttonNormal"
+                    android:text="Personal"/>
+
+                <TextView
+                    android:id="@+id/personal_total_license"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="titillium_regular"
+                    android:layout_height="wrap_content"
+                    android:textColor="#8388b0"
+                    android:text="0 License(s)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/personal_right_align"
+                android:layout_width="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginEnd="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/personal_license"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="titillium_regular"
+                    android:text="0"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/buttonNormal"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/personalLicenseCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#8388b0"
+                    android:fontFamily="titillium_regular"
+                    android:text="Available"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_alignLeft="@+id/personal_right_align"
+                android:layout_width="1dp"
+                android:background="#8388b0"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/vip"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/license_unselected"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/vip_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:fontFamily="titillium_regular"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/buttonNormal"
+                    android:text="VIP"/>
+
+                <TextView
+                    android:id="@+id/vip_total_license"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="titillium_regular"
+                    android:layout_height="wrap_content"
+                    android:textColor="#8388b0"
+                    android:text="0 License(s)"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/vip_right_align"
+                android:layout_width="100dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginEnd="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/vip_license"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:fontFamily="titillium_regular"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/buttonNormal"
+                    android:text="0"/>
+
+                <TextView
+                    android:id="@+id/personalLicenceAvailableCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="titillium_regular"
+                    android:textColor="#8388b0"
+                    android:text="Available"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_alignLeft="@+id/vip_right_align"
+                android:layout_width="1dp"
+                android:background="#8388b0"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/continue_button"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp"
+        android:layout_weight="1">
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                app:cardBackgroundColor="@color/license_selected"
+                app:cardCornerRadius="10dp">
+                <TextView
+                    android:id="@+id/continueText"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="18dp"
+                    android:text="Continue"
+                    android:textColor="@color/buttonNormal"
+                    android:layout_height="wrap_content"/>
+            </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

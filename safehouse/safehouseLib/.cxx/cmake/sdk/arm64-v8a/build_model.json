@@ -1,0 +1,75 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse",
+      "sdkFolder": "/Users/tft/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [
+        "armeabi-v7a",
+        "x86_64",
+        "x86",
+        "arm64-v8a"
+      ],
+      "intermediatesFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/build/intermediates",
+      "gradleModulePathName": ":safehouseLib",
+      "moduleRootFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib",
+      "makeFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/.cxx",
+      "cxxFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx",
+      "ndkFolder": "/Users/tft/Library/Android/sdk/ndk/20.0.5594570",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "sdk",
+    "soFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/build/intermediates/cmake/sdk/lib",
+    "objFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/build/intermediates/cmake/sdk/obj",
+    "jsonFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cmake/sdk",
+    "gradleBuildOutputFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cxx/sdk",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cmake/sdk/arm64-v8a",
+  "jsonFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cmake/sdk/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cxx/sdk/arm64-v8a",
+  "objFolder": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/build/intermediates/cmake/sdk/obj/arm64-v8a",
+  "buildCommandFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cmake/sdk/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cmake/sdk/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cmake/sdk/arm64-v8a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cxx/sdk/arm64-v8a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cxx/sdk/arm64-v8a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cxx/sdk/arm64-v8a/build_generation_state.json",
+    "cacheKeyFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cxx/sdk/arm64-v8a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cxx/sdk/arm64-v8a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cxx/sdk/arm64-v8a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cxx/sdk/arm64-v8a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cmake/sdk/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cmake/sdk/arm64-v8a/compile_commands.json"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.safehouse.almasecure.TermsAndConditions">
+
+    <LinearLayout
+        android:id="@+id/terms_and_conditions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#091b71">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/close_terms"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/icon_back" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:textColor="@color/buttonNormal"
+                android:text="@string/TermsAndConditions"
+                android:textSize="20dp" />
+        </RelativeLayout>
+        <WebView
+            android:id="@+id/webView"
+            android:requiresFadingEdge="vertical"
+            android:fadingEdgeLength="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/accept_terms"
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:background="@drawable/accept_button_bg"
+                android:textColor="@color/buttonNormal"
+                android:text="OK"
+                android:layout_height="35dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

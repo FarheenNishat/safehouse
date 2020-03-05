@@ -1,0 +1,13 @@
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/nopie_openvpn.armeabi-v7a.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/makeassetdir.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/openvpn.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/pie_openvpn.armeabi-v7a.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/libovpnexec.so.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/jbcrypto.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/crypto.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/opvpnutil.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/lz4.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/ssl.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonRelease/armeabi-v7a/CMakeFiles/lzo.dir

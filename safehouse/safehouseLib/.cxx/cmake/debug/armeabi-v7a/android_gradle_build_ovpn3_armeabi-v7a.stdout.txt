@@ -1,0 +1,5 @@
+[1/5] Building C object CMakeFiles/lz4.dir/lz4/lib/lz4.c.o
+[2/5] Linking C static library liblz4.a
+[3/5] Building CXX object CMakeFiles/ovpn3.dir/openvpn3/client/ovpncli.cpp.o
+[4/5] Building CXX object CMakeFiles/ovpn3.dir/ovpncli_wrap.cxx.o
+[5/5] Linking CXX shared library /Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/build/intermediates/cmake/debug/obj/armeabi-v7a/libovpn3.so

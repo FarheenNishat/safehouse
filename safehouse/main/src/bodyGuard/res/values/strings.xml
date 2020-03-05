@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app">BodyGuard</string>
+    <string name="appcode">bodyguard</string>
+    <string name="by_pressing_login_you_accept_the_a_terms_and_conditions_a">By pressing Login you accept the <a href="https://vpn-app.safehouse-technologies.com/static/tos-bodyguard.pdf">Terms &amp; Conditions</a></string>
+    <string name="privacy_policy">and acknowledge the <a href="https://www.safehousetech.com/legal/consumer-privacy">Privacy Policy</a></string>
+    <string name="tos_url">https://vpn-app.safehouse-technologies.com/static/tos-bodyguard.html</string>
+    <string name="powered_by_b_safehouse_b">Powered by <b>SafeHouse</b></string>
+    <string name="main_activity_title">BodyGuard</string>
+    <string name="login_title">Protect your device with BodyGuard</string>
+    <!--<string name="forgot_password"><a href="https://vpn-app.safehouse-technologies.com/static/tos-bodyguard.pdf">Forgot your password?</a></string>-->
+    <string name="forgot_password"><u>Forgot Password / Modify Password</u></string>
+    <string name="prod_url">https://vpn-app.safehouse-technologies.com</string>
+    <string name="server_url">https://dev1.safehouse-technologies.com</string>
+    <string name="dev_server_url">https://dev1.safehouse-technologies.com</string>
+    <!--<string name="server_url">https://dev1.safehouse-technologies.com</string>-->
+    <string name="reset_password">Reset your password</string>
+    <string name="exclude_app">Exclude Apps</string>
+    <string name="TermsAndConditions">Terms And Conditions</string>
+    <string name="exclude_app_title">BodyGuard provides you with a split tunneling feature to give you the best of security with smoother internet experience. Here, you can check the apps which will not use the VPN tunnel.\nPlease note that you need to reconnect to BodyGuard server after making changes here.</string>
+    <string name="about_us_link">https://www.safehousetech.com/mission/</string>
+    <string name="help_center_link">https://www.safehousetech.com/consumers/faq</string>
+    <string name="privacy_policy_link">https://safehousetech.com/legal/consumer-privacy</string>
+    <string name="signup_error_message">"Something went wrong with registration. Please contact to Safehouse contact support\n support@safeousetech.com"</string>
+    <string name="user_already_exist">User already exist</string>
+</resources>

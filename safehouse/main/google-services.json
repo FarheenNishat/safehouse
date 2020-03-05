@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "286122813460",
+    "firebase_url": "https://bodyguard-95f9a.firebaseio.com",
+    "project_id": "bodyguard-95f9a",
+    "storage_bucket": "bodyguard-95f9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286122813460:android:6e85e6d3d8dd3082",
+        "android_client_info": {
+          "package_name": "com.safehouse.bodyguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286122813460-ubusit9fr2ejlpeca9bevd74a97uje69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfR_8koAizv43bGdxZRc5wKl44N4kipCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286122813460-ubusit9fr2ejlpeca9bevd74a97uje69.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "286122813460-m56k1ss03g4ifjg9tclq2u8kvafq6au6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.safehouse.bodyguard.pro"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

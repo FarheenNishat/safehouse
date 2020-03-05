@@ -1,0 +1,97 @@
+[1/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/compat/compat-basename.c.o
+[2/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/compat/compat-daemon.c.o
+[3/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/compat/compat-dirname.c.o
+[4/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/compat/compat-gettimeofday.c.o
+[5/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/compat/compat-inet_ntop.c.o
+[6/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/compat/compat-inet_pton.c.o
+[7/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/compat/compat-lz4.c.o
+[8/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/argv.c.o
+[9/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/base64.c.o
+[10/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/buffer.c.o
+[11/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/clinat.c.o
+[12/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/console.c.o
+[13/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/console_builtin.c.o
+[14/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/crypto.c.o
+[15/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/crypto_openssl.c.o
+[16/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/crypto_mbedtls.c.o
+[17/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/cryptoapi.c.o
+[18/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/dhcp.c.o
+[19/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/error.c.o
+[20/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/event.c.o
+[21/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/env_set.c.o
+[22/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/fdmisc.c.o
+[23/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/forward.c.o
+[24/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/fragment.c.o
+[25/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/gremlin.c.o
+[26/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/helper.c.o
+[27/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/httpdigest.c.o
+[28/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/init.c.o
+[29/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/interval.c.o
+[30/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/list.c.o
+[31/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/lladdr.c.o
+[32/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/lzo.c.o
+[33/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/manage.c.o
+[34/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/mbuf.c.o
+[35/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/misc.c.o
+[36/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/mroute.c.o
+[37/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/mss.c.o
+[38/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/mstats.c.o
+[39/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/mtcp.c.o
+[40/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/mtu.c.o
+[41/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/mudp.c.o
+[42/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/multi.c.o
+[43/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/ntlm.c.o
+[44/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/occ.c.o
+[45/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/openvpn.c.o
+[46/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/options.c.o
+[47/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/otime.c.o
+[48/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/packet_id.c.o
+[49/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/perf.c.o
+[50/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/pf.c.o
+[51/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/ping.c.o
+[52/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/pkcs11.c.o
+[53/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/pkcs11_openssl.c.o
+[54/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/platform.c.o
+[55/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/plugin.c.o
+[56/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/pool.c.o
+[57/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/proto.c.o
+[58/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/proxy.c.o
+[59/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/ps.c.o
+[60/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/push.c.o
+[61/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/reliable.c.o
+[62/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/route.c.o
+[63/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/run_command.c.o
+[64/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/schedule.c.o
+[65/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/session_id.c.o
+[66/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/shaper.c.o
+[67/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/sig.c.o
+[68/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/socket.c.o
+[69/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/socks.c.o
+[70/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/ssl.c.o
+[71/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/ssl_openssl.c.o
+[72/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/ssl_mbedtls.c.o
+[73/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/ssl_verify.c.o
+[74/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/ssl_verify_openssl.c.o
+[75/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/ssl_verify_mbedtls.c.o
+[76/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/status.c.o
+[77/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/tls_crypt.c.o
+[78/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/tun.c.o
+[79/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/comp-lz4.c.o
+[80/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/comp.c.o
+[81/90] Building C object CMakeFiles/openvpn.dir/openvpn/src/openvpn/compstub.c.o
+[82/90] cd /Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cmake/debug/x86 && /Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E make_directory /Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/src/main/cpp/../../../build/ovpnassets
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/src/main/cpp/openvpn/src/openvpn/tun.c:915:10: warning: passing 'const char *' to parameter of type 'void *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    free(ifconfig_ipv6_local);
+         ^~~~~~~~~~~~~~~~~~~
+/Users/tft/Library/Android/sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/malloc.h:83:17: note: passing argument to parameter '__ptr' here
+void free(void* __ptr);
+                ^
+1 warning generated.
+[83/90] Linking C shared library /Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/build/intermediates/cmake/debug/obj/x86/libopenvpn.so
+[84/90] Building C object CMakeFiles/nopie_openvpn.x86.dir/minivpn/minivpn.c.o
+[85/90] Building C object CMakeFiles/pie_openvpn.x86.dir/minivpn/minivpn.c.o
+[86/90] Linking C executable nopie_openvpn.x86
+[87/90] Linking C executable pie_openvpn.x86
+[88/90] Building C object CMakeFiles/opvpnutil.dir/opvpnutil/jniglue.c.o
+[89/90] Building C object CMakeFiles/opvpnutil.dir/opvpnutil/scan_ifs.c.o
+[90/90] Linking C shared library /Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/build/intermediates/cmake/debug/obj/x86/libopvpnutil.so

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "782428048755",
+    "firebase_url": "https://safehousedemo.firebaseio.com",
+    "project_id": "safehousedemo",
+    "storage_bucket": "safehousedemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782428048755:android:6f0bcff2c9f08590944906",
+        "android_client_info": {
+          "package_name": "com.safehouse.bodyguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782428048755-v5l0hp6kmqpovevdpksfdc7tso2msinl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR-69O3R5CtYYH365OHlNyeLpJyhRfnUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782428048755-v5l0hp6kmqpovevdpksfdc7tso2msinl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

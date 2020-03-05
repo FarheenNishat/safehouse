@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg">
+
+
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="16dp"
+        android:background="@null"
+        android:src="@drawable/icon_back"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset password"
+        android:id="@+id/titleText"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@null"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/titleText"
+        android:scaleType="centerCrop"
+        android:layout_above="@+id/editTextUsername"
+        android:src="@drawable/body_full"/>
+
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/editTextPassword2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/login_field_bg"
+        android:gravity="center"
+        android:hint="Enter your Email address"
+        android:imeOptions="actionNext"
+        android:inputType="textNoSuggestions"
+        android:maxLines="1"
+        android:nextFocusDown="@+id/editTextPassword"
+        android:paddingLeft="16dp"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#59ffffff"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_alignBottom="@+id/editTextUsername"
+        android:layout_marginHorizontal="25dp"
+        android:src="@drawable/login_icon" />
+    <EditText
+        android:textSize="16dp"
+        android:inputType="textNoSuggestions"
+        android:layout_above="@+id/editTextPassword1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/editTextPassword2"
+        android:background="@drawable/login_field_bg"
+        android:hint="Enter your password"
+        android:paddingLeft="16dp"
+        android:imeOptions="actionDone"
+        android:nextFocusDown="@+id/buttonLogin"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:textColor="#ffffff"
+        android:textColorHint="#59ffffff"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_alignBottom="@+id/editTextPassword2"
+        android:layout_marginHorizontal="25dp"
+        android:src="@drawable/password_icon" />
+    <EditText
+        android:textSize="16dp"
+        android:inputType="textNoSuggestions"
+        android:layout_above="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:paddingLeft="16dp"
+        android:id="@+id/editTextPassword1"
+        android:background="@drawable/login_field_bg"
+        android:gravity="center"
+        android:hint="Confirm password"
+        android:imeOptions="actionDone"
+        android:nextFocusDown="@+id/buttonLogin"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:textColor="#ffffff"
+        android:textColorHint="#59ffffff"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_alignBottom="@+id/editTextPassword1"
+        android:layout_marginHorizontal="25dp"
+        android:src="@drawable/password_icon" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/buttonLogin"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/textViewToLogin"
+        android:text="Modify my password"
+        android:background="@drawable/background_button_login"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="18dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_alignBottom="@+id/buttonLogin"
+        android:layout_alignTop="@+id/buttonLogin"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="200dp"
+        android:indeterminate="true"
+        android:elevation="2dp"
+        android:indeterminateTint="@android:color/holo_blue_dark"
+        android:visibility="gone" />
+
+
+
+    <TextView
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:autoLink="web"
+        android:textSize="14dp"
+        android:textColorLink="#ffffff"
+        android:id="@+id/textViewToLogin"
+        android:layout_alignParentBottom="true"
+        android:text="@string/back_to_login"/>
+
+
+</RelativeLayout>

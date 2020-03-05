@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app">SecurityShield</string>
+    <string name="appcode">almasecure</string>
+    <string name="by_pressing_login_you_accept_the_a_terms_and_conditions_a">By pressing Login you accept the <a href="https://vpn-app.safehouse-technologies.com/static/tos-alma.pdf">terms and conditions</a></string>
+    <string name="tos_url">https://vpn-app.safehouse-technologies.com/static/tos-alma.html</string>
+    <string name="powered_by_b_safehouse_b">Powered by <b>SafeHouse</b></string>
+    <string name="main_activity_title">Alma Security Shield</string>
+
+</resources>

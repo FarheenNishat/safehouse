@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvOnlineBreachTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Online Breach Alerts"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:background="@null"
+        android:src="@drawable/icon_back"
+
+        />
+
+    <com.airbnb.lottie.LottieAnimationView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/animationView"
+        android:layout_width="170dp"
+        android:layout_height="450dp"
+        android:layout_alignParentRight="true"
+        app:lottie_rawRes="@raw/blue" />
+
+    <RelativeLayout
+        android:id="@+id/leftRL"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_toLeftOf="@+id/animationView"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:paddingBottom="70dp">
+
+        <TextView
+            android:id="@+id/tv_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gvdsbhddjdj"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_secure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Congratulations!"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_secure2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_secure"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="64dp"
+            android:text="Your email hasn't appeared \nin any breach yet."
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_not_secure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_not_secure"
+            android:layout_marginTop="16dp"
+            android:text="@string/recommend_to_take_action"
+            android:textColor="#D8D8D8D9"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+
+        <RelativeLayout
+            android:id="@+id/recommended_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recommend">
+
+            <ImageView
+                android:id="@+id/recommended_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:paddingRight="7dp"
+                android:src="@drawable/bodyguard_checkmark" />
+
+            <TextView
+                android:id="@+id/recommend_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/recommended_icon"
+                android:textColor="#D8D8D8D9"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_check"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="6dp"
+            android:text="Find out if your email address was part of a breach, and if so - a list of actions on how to mitigate your exposure"
+            android:textColor="#D8D8D8D9"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:elevation="2dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@android:color/holo_blue_dark"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/ffBottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/llBottomView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/view3"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/view4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:text="Email address"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/EditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:hint="Enter your Email address"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#90ffffff" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="48dp"
+                android:background="#9effec" />
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:layout_width="150dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/background_button_login"
+                android:text="Let`s Check"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:nestedScrollingEnabled="false"
+            android:text="Breach data provided by Have I Been Pwned"
+            android:textColor="#90ffffff"
+            android:textSize="10sp" />
+
+        <RelativeLayout
+            android:id="@+id/ll_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_above="@+id/back_btn"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/tvBreachReport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breach Report"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvBreachReport"
+                android:layout_marginTop="8dp"
+                android:lines="2"
+                android:text="Hackers got your sensitive details on 1 breached site in the past."
+                android:textColor="#D8D8D8D9"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/viewAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="32dp"
+                android:text="View all"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/breach_list"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_below="@+id/tvLine"
+                android:fadeScrollbars="false"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollbarSize="5dp"
+                android:scrollbarThumbVertical="@android:color/white"
+                android:scrollbars="vertical" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:background="@drawable/background_button_login"
+            android:text="Back to BodyGuard"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </RelativeLayout>
+</RelativeLayout>

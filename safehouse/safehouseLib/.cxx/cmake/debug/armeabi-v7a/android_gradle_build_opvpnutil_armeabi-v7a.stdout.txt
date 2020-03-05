@@ -1,0 +1,9 @@
+Recompacting log...
+[1/8] cd /Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/.cxx/cmake/debug/armeabi-v7a && /Users/tft/Library/Android/sdk/cmake/3.6.4111459/bin/cmake -E make_directory /Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/src/main/cpp/../../../build/ovpnassets
+[2/8] Building C object CMakeFiles/pie_openvpn.armeabi-v7a.dir/minivpn/minivpn.c.o
+[3/8] Building C object CMakeFiles/nopie_openvpn.armeabi-v7a.dir/minivpn/minivpn.c.o
+[4/8] Linking C executable pie_openvpn.armeabi-v7a
+[5/8] Linking C executable nopie_openvpn.armeabi-v7a
+[6/8] Building C object CMakeFiles/opvpnutil.dir/opvpnutil/scan_ifs.c.o
+[7/8] Building C object CMakeFiles/opvpnutil.dir/opvpnutil/jniglue.c.o
+[8/8] Linking C shared library /Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/build/intermediates/cmake/debug/obj/armeabi-v7a/libopvpnutil.so

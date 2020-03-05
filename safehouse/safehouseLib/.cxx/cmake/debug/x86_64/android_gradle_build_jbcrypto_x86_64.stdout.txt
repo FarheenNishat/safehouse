@@ -1,0 +1,2 @@
+[1/2] Building CXX object CMakeFiles/jbcrypto.dir/jbcrypto/jbcrypto.cpp.o
+[2/2] Linking CXX shared library /Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/safehouseLib/build/intermediates/cmake/debug/obj/x86_64/libjbcrypto.so

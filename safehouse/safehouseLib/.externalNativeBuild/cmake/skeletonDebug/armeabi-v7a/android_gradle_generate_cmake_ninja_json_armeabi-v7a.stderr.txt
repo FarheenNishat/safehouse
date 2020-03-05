@@ -1,0 +1,4 @@
+OpenVPN 2.x version HEAD-HASH-NOTFOUND
+OpenVPN 3.x version HEAD-HASH-NOTFOUND
+Not budiling OpenVPN for output dir /Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/build/intermediates/cmake/skeleton/debug/obj/armeabi-v7a
+Not budiling SSLSpeedTest for output dir /Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/build/intermediates/cmake/skeleton/debug/obj/armeabi-v7a

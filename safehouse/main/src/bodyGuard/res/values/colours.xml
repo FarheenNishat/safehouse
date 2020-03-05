@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="buttonNormal">#ffffff</color>
+    <color name="buttonPress">#dddddd</color>
+    <color name="background">#002783</color>
+
+    <color name="personal">#22419a</color>
+    <color name="vip">#00086C</color>
+    <color name="pro">#000000</color>
+    <color name="license_unselected">#12124f</color>
+    <color name="license_selected">#245bc1</color>
+
+
+</resources>

@@ -1,0 +1,75 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse",
+      "sdkFolder": "/Users/tft/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [
+        "armeabi-v7a",
+        "x86_64",
+        "x86",
+        "arm64-v8a"
+      ],
+      "intermediatesFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/build/intermediates",
+      "gradleModulePathName": ":main",
+      "moduleRootFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main",
+      "makeFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse/.cxx",
+      "cxxFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx",
+      "ndkFolder": "/Users/tft/Library/Android/sdk/ndk/20.0.5594570",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "bodyGuardRelease",
+    "soFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/build/intermediates/cmake/bodyGuardRelease/lib",
+    "objFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/build/intermediates/cmake/bodyGuardRelease/obj",
+    "jsonFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardRelease",
+    "gradleBuildOutputFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cxx/bodyGuardRelease",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardRelease/armeabi-v7a",
+  "jsonFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardRelease/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cxx/bodyGuardRelease/armeabi-v7a",
+  "objFolder": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/build/intermediates/cmake/bodyGuardRelease/obj/armeabi-v7a",
+  "buildCommandFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardRelease/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardRelease/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardRelease/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cxx/bodyGuardRelease/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cxx/bodyGuardRelease/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cxx/bodyGuardRelease/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cxx/bodyGuardRelease/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cxx/bodyGuardRelease/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cxx/bodyGuardRelease/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cxx/bodyGuardRelease/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardRelease/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/tft/Desktop/Safehouse Library/android/safehouse/main/.cxx/cmake/bodyGuardRelease/armeabi-v7a/compile_commands.json"
+}

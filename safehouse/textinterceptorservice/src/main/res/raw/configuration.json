@@ -1,0 +1,22 @@
+{
+  "packages": ["com.google.android.gm"],
+  "allowAll": true,
+  "flowPolicyConfiguration":
+  {
+    "defaultPolicy": {"exitEvents": [4194304,32,4,1],"enterEvents":[32,4,1]},
+    "packagesPolicies":
+    [{
+      "packageName": "com.google.android.gm",
+      "exitEvents":[4194304,32,4,1],
+      "enterEvents":[32,4,1]
+    },{
+      "packageName": "com.safehouse.bodyguard",
+      "exitEvents":[4194304,32,4,1],
+      "enterEvents":[32,4,1]
+    }]
+  }
+}
+
+
+
+

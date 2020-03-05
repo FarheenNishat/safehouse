@@ -1,0 +1,13 @@
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/makeassetdir.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/pie_openvpn.arm64-v8a.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/ssl.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/nopie_openvpn.arm64-v8a.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/jbcrypto.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/libovpnexec.so.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/openvpn.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/crypto.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/opvpnutil.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/lz4.dir
+/Users/tft/Desktop/SafehouseCopy/mobile/android/safehouse/main/.externalNativeBuild/cmake/skeletonDebug/arm64-v8a/CMakeFiles/lzo.dir

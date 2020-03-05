@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg">
+
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="16dp"
+        android:background="@null"
+        android:src="@drawable/icon_back"
+
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/body"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/titleText"
+        android:layout_above="@+id/title"/>
+
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Forgot password"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your email address associated with your account"
+        android:textColor="#ffffff"
+        android:maxLines="2"
+        android:paddingBottom="6dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="15dp"
+        android:layout_above="@+id/editTextUsername"
+        />
+
+    <TextView
+        android:id="@+id/weWillEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We will email you a link to reset your password"
+        android:textColor="#80ffffff"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textSize="15dp"
+        android:layout_above="@+id/editTextUsername"
+        />
+
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextUsername"
+        android:layout_marginLeft="40dp"
+        android:text="Email address"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@id/buttonLogin"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@null"
+        android:hint="Email"
+        android:imeOptions="actionNext"
+        android:inputType="textNoSuggestions"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textColorHint="#59ffffff"
+        android:textSize="15dp" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignBottom="@+id/editTextUsername"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="#9effec"
+
+        />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@id/textViewToLogin"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/background_button_login"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+
+        />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_alignBottom="@+id/buttonLogin"
+        android:layout_alignTop="@+id/buttonLogin"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="190dp"
+        android:indeterminate="true"
+        android:elevation="2dp"
+        android:indeterminateTint="@android:color/holo_blue_dark"
+        android:visibility="gone" />
+
+
+
+    <TextView
+        android:textColor="#ffffff"
+        android:gravity="center" android:layout_marginTop="10dp"
+        android:layout_width="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:autoLink="web"
+        android:textSize="14dp"
+        android:textColorLink="#ffffff"
+        android:id="@+id/textViewToLogin"
+        android:text="@string/back_to_login"/>
+
+
+</RelativeLayout>
